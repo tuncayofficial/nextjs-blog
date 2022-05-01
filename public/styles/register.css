@@ -1,0 +1,35 @@
+.register {
+    margin: auto auto;
+    width: 600px;
+    height: 550px;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+ }
+ 
+ .register form {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+ }
+ .register form h1 {
+     font-size: 33px;
+ }
+ 
+ .register form button {
+     background-color: #2d0396;
+     width: 430px;
+     height: 55px;
+     color: white;
+     margin-top: 10px;
+     padding: 15px;
+ }
+ 
+ .register form input {
+         width: 400px;
+         margin: 10px;
+ }

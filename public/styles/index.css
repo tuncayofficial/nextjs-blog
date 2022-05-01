@@ -1,0 +1,85 @@
+.notify {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.notify input {
+    margin: 18px;
+}
+ 
+ .list {
+     cursor: pointer;
+     transition: 300ms all;
+     position: relative;
+ }
+
+ .list:hover {
+     transform: scale(1.08);
+ }
+
+.card2 {
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    color: white;
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    margin: auto auto;
+    margin-top: 40px;
+}
+
+.card2 .title { 
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lists .list {
+    margin: 10px;
+    padding: 15px;
+    background-color: orange;
+    width: 550px;
+    border-radius: 9px;
+}
+
+.slogan, .message1{
+    font-size: 33px;
+    margin-top: 30px;
+}
+
+.card {
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    color: white;
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    margin: auto auto;
+    margin-top: 40px;
+}
+
+.card .title { 
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
