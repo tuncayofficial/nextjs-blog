@@ -1,6 +1,6 @@
 function Tag({ tag }){
    return(
-    <div class = "tag">{tag}</div>
+    <div className = "tag">{tag}</div>
    )
 }
 
